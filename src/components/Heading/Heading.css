@@ -1,0 +1,20 @@
+.Heading img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heading h1{
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.Heading p {
+    font-size: 20px;
+    color: black;
+}
