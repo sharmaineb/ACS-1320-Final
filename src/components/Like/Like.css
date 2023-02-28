@@ -1,0 +1,11 @@
+.bandLikes {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandLikes button {
+    margin: 0.7em;
+}
