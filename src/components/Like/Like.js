@@ -6,9 +6,9 @@ function Like() {
     
     return (
         <div className='bandLikes'>
-            <button onClick={() => setLikes(likes - 1)}>👍</button>
+            <button onClick={() => setLikes(likes - 1)}>👎</button>
             <h2>{likes}</h2>
-            <button onClick={() => setLikes(likes + 1)}>👎</button>
+            <button onClick={() => setLikes(likes + 1)}>👍</button>
         </div>
     )
 }
